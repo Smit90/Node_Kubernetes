@@ -9,7 +9,7 @@ app.get("/", function (req, res) {
 
 app.get("/test", function (req, res) {
   res.json({
-    response: "Web-Hook works",
+    response: "Checking github webhooks",
   });
 });
 
