@@ -7,6 +7,12 @@ app.get("/", function (req, res) {
   });
 });
 
+app.get("/test", function (req, res) {
+  res.json({
+    response: "Web-Hook works",
+  });
+});
+
 app.get("/about", function (req, res) {
   res.json({
     response: "CI/CD pipeline with jenkins and kubernetes deployment",
